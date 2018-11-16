@@ -15,4 +15,4 @@ let bubbleSort = function(theArray){
 };
 
 
-console.log(bubbleSort([5,66,1,-9]));
+console.log(bubbleSort([5,66,19,1,-9]));
