@@ -17,7 +17,7 @@
 			this.canDance = canDance;
 			this.skills = skills;
 			this.speak = function(){
-				$("#objectPrint").html(`hello my name is ${this.name} and people say I can dance thats ${this.canDance} and skill(s) : ${skills}`);
+				$("#objectPrint").html(`hello my name is ${this.name} and people say I can dance thats ${this.canDance} and skill(s) : ${[...skills]}`);
 			}
 		}
 	}
