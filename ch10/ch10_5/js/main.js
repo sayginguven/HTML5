@@ -1,6 +1,5 @@
 let numberArray = [6,5,7,8,11,4,19,22,3,12,99,1,123];
 
-
 function bubbleSort(theArray){
 
    let i;
