@@ -15,3 +15,4 @@ let variable = setInterval(function(){
 		document.getElementsByClassName("demo")[0].innerHTML = projects;
 	}
 }, 35);
+
