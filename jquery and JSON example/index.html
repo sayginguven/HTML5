@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+	<h1>heading</h1>
+	<p>HELLO JQUERY</p>
+
+	<h2>heading 2</h2>
+	<p>another p element</p>
+
+	<p id="output">another p element</p>	
+
+	<script>
+	
+	$(document).ready(function(){
+		$("p").click(function(){
+			$(this).hide();
+		});
+	});
+
+	var myJSON = '{ "name":"John", "age":31, "city":"New York" }';
+	var myObj = JSON.parse(myJSON);
+	document.getElementById("output").innerHTML = 
+	myObj.name + '<br>'+ 
+	myObj.age + '<br>' + 
+	myObj.city + '<br>';
+
+	</script>
+
+</body>
+</html>
